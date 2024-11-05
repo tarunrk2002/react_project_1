@@ -75,4 +75,6 @@ button:focus-visible {
   color: white;
 }
 
-
+h1 {
+  color: cyan;
+}
