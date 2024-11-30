@@ -18,3 +18,12 @@
   transition: all 0.3s ease-in-out;
 }
 
+.button{
+  background-color: rgba(72, 194, 165, 0.475);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}

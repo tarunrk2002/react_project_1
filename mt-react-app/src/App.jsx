@@ -1,8 +1,6 @@
-import Header from './Head.jsx'
-import Footer from './Footer.jsx'
-import Food from './Food.jsx'
-import Temp from './temp.jsx'
+import Student from './Students.jsx';
 import Card from './Card.jsx'
+import Button from './Button.jsx'
 
 function App() {
   return(
@@ -10,7 +8,9 @@ function App() {
     <>
    
    <Card/>
+   <Button/>
  
+   <Student name="Jane Doe"></Student> 
     </>
    
   );
