@@ -10,7 +10,9 @@ function App() {
    <Card/>
    <Button/>
  
-   <Student name="Jane Doe"></Student> 
+   <Student name="Jane Doe" age={25} isstudent={false}></Student> 
+  
+   
     </>
    
   );
