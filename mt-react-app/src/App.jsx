@@ -1,6 +1,7 @@
-import Student from './Students.jsx';
+
 import Card from './Card.jsx'
 import Button from './Button.jsx'
+import Prop from './Prop.jsx';
 
 function App() {
   return(
@@ -9,8 +10,10 @@ function App() {
    
    <Card/>
    <Button/>
- 
-   <Student name="Jane Doe" age={25} isstudent={false}></Student> 
+   <Prop name="John" age={30}/>
+
+  
+
   
    
     </>

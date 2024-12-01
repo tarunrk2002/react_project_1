@@ -25,5 +25,15 @@
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  transition: all 0.3s ease-out;
   
 }
+
+
+.button:hover{
+  background-color: rgba(10, 194, 165, 0.475);
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+
